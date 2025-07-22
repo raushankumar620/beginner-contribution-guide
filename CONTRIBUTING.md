@@ -1,52 +1,67 @@
-# Ce qu'un non programmeur peut faire
+# 🤝 Guide pour Contribuer à l'Open Source sans coder
 
-## Être attentive
+Bienvenue dans ce guide pour contribuer aux projets open source, même si vous n'êtes pas développeur !  
+Beaucoup pensent que seules les personnes techniques peuvent contribuer, mais ce n’est pas vrai. Voici comment vous pouvez aider.
 
-Dans le domaine de l'open source, toute démarche, qu'il s'agisse de programmation ou d'autres aspects, requiert la contribution et l'implication d'autres personnes.
+---
 
-Rejoindre une équipe open source, implique de comprendre la dynamique de la communauté et son mode de fonctionnement. Plutôt que d'arriver sur un projet en affirmant immédiatement, "Voici ce que je pense que ce projet devrait faire", il est généralement plus bénéfique d'adopter une approche plus attentive.
+## ✍️ 1. Proposer des idées (Issue)
 
-Certains projets peuvent accueillir favorablement ce type d'approche, mais si le projet existe depuis un certain temps, les chances que cette attitude soit adoptée sont faibles. L'écoute est le meilleur moyen de savoir ce dont le projet a besoin.
+- Si vous trouvez un bug, un problème ou avez une idée d’amélioration, ouvrez un **issue**.
+- Cliquez sur l’onglet **"Issues"**, puis **"New issue"**.
+- Soyez clair, donnez un titre et une description de ce que vous proposez.
 
-1. **S'abonner à une liste de diffusion** : Pour de nombreux projets, la liste de diffusion est le principal moyen de communication sur le développement du projet. Dans les grands projets, il existe de nombreuses listes de diffusion. Par exemple, le projet PostgreSQL a pas moins de 12 listes orientées utilisateurs et six listes de développeurs sur sa page de listes de diffusion. Je vous suggère de suivre la liste principale orientée utilisateurs et la liste principale de développeurs pour commencer à écouter.
-2. **Suivre un blog** : Les blogs tenus par les développeurs principaux donnent souvent des informations sur les prochaines versions et sur les étapes nécessaires pour y parvenir. Un site planet regroupe des nouvelles et des articles de blog provenant de nombreuses sources liées au projet. S'il existe un site planet, comme planet.gnome.org ou planet.mysql.com, commencez par là. Il suffit de chercher "planet" dans Google.
-3. **Rejoindre un canal IRC** : De nombreux projets open source disposent de canaux IRC (Internet relay chat) dédiés où les développeurs et les utilisateurs se retrouvent pour discuter des problèmes et du développement. Consultez le site web du projet pour connaître le nom du canal et le réseau IRC sur lequel il se trouve.
-4. **Travailler avec des tickets**: Le code est au cœur de tout projet open source, mais il ne faut pas croire que l'écriture de code est la seule façon de contribuer. La maintenance du code et des systèmes qui l'entourent est souvent négligée dans la course à la création de nouvelles fonctionnalités et à la correction des bogues. Ces domaines sont un moyen facile de mettre un pied dans un projet. La plupart des projets disposent d'un système de tickets de dépannage visible par tous, lié à la page d'accueil du site web du projet et inclus dans la documentation. Il s'agit du principal canal de communication entre les utilisateurs et les développeurs. Le maintenir à jour est un excellent moyen d'aider le projet. Il se peut que vous deviez obtenir des autorisations spéciales dans le système de tickets, que la plupart des chefs de projet seront heureux de vous accorder lorsque vous direz que vous voulez aider à nettoyer les tickets.
-5. **Diagnostiquer un bogue** : Les bogues sont souvent mal signalés. Le diagnostic et le triage d'un bogue peuvent aider les développeurs à gagner du temps en leur permettant de comprendre les spécificités du problème. Si un utilisateur signale que "le logiciel ne fonctionne pas lorsque je fais X", prenez le temps d'analyser les détails de ce problème. Est-il reproductible ? Pouvez-vous créer une série d'étapes pour provoquer le problème de manière répétée ? Pouvez-vous circonscrire le problème, par exemple s'il ne se produit que sur un navigateur et pas sur un autre, ou sur une distribution et pas sur une autre ?
+---
 
-Même si vous ne savez pas ce qui cause le problème, l'effort que vous faites pour réduire les circonstances permet à quelqu'un d'autre de le résoudre plus facilement. Quoi que vous découvriez, ajoutez-le au ticket dans le système de gestion des bogues pour que tout le monde puisse le voir.
+## 🌍 2. Traduction
 
-6. **Fermer les bogues corrigés** : Il arrive souvent que des bogues soient corrigés dans la base de code, mais que les tickets signalés à leur sujet ne soient pas mis à jour dans le système de gestion des tickets. Le nettoyage de ces bogues peut prendre du temps, mais il est précieux pour l'ensemble du projet.
-Commencez par interroger le système de tickets pour les tickets datant de plus d'un an et voyez si le bogue existe toujours. Consultez le journal des modifications de la version du projet pour voir si le bogue a été corrigé et s'il peut être fermé. Si l'on sait qu'il a été corrigé, notez le numéro de version dans le ticket et fermez-le.
+- Beaucoup de projets ont besoin de **traduction** (comme anglais → français).
+- Cherchez les fichiers `README.md`, `CONTRIBUTING.md`, `docs/` ou `locale/`.
+- Proposez une **Pull Request** avec votre traduction.
 
-    Essayez de recréer le bogue avec la dernière version du logiciel. S'il ne peut pas être recréé avec la dernière version, notez-le dans le ticket et fermez-le. S'il existe toujours, notez-le également dans le ticket et laissez-le ouvert.
+---
 
-    Travailler avec du code Des programmeurs de tous les niveaux d'expérience peuvent aider à développer le code du projet. Ne pensez pas que vous devez être un génie du codage pour apporter une réelle contribution à votre projet favori.
+## 🖼️ 3. Améliorer la documentation
 
-    Si votre travail consiste à modifier le code, renseignez-vous sur la méthode utilisée par le projet pour obtenir le code des contributeurs. Chaque projet a son propre flux de travail, alors renseignez-vous sur la façon de procéder avant de commencer à soumettre du code.
+- Si une documentation manque de clarté, corrigez-la !
+- Vous pouvez reformuler, ajouter des exemples, corriger l’orthographe.
+- Contribuer à la **qualité des docs** aide toute la communauté.
 
-    Par exemple, le projet PostgreSQL est très rigoureux dans son processus : Les modifications de code sont envoyées sous forme de correctifs à une liste de diffusion où les développeurs principaux examinent minutieusement chaque aspect du changement. À l'autre extrémité, on trouve un projet comme Parrot, où il est facile d'obtenir des privilèges de validation pour la base de code. Si le projet utilise GitHub, il peut y avoir un flux de travail qui utilise la fonction de demande d'extraction de GitHub. Il n'y a pas deux projets identiques.
+---
 
-    Chaque fois que vous modifiez du code, veillez à agir en tant que membre responsable de la communauté et à conserver un style de code qui corresponde au reste de la base de code. Le code que vous ajoutez ou modifiez doit ressembler au reste. Vous pouvez ne pas aimer le style des accolades ou la gestion des espaces pour l'indentation, mais il est impoli de soumettre une modification de code qui ne correspond pas aux normes existantes. Cela revient à dire : "Je n'aime pas votre style, et je pense que le mien est meilleur, alors vous devriez le faire à ma façon".
+## 🎨 4. Proposer des designs ou idées UI/UX
 
-7. **Tester une version bêta ou une "release candidate"** : Tout projet conçu pour fonctionner sur plusieurs plateformes peut rencontrer toutes sortes de problèmes de portabilité. Lorsqu'une version approche et qu'une version bêta ou candidate est publiée, le chef de projet espère qu'elle sera testée par de nombreuses personnes différentes sur de nombreuses plateformes différentes. Vous pouvez être l'une de ces personnes et contribuer à faire en sorte que le paquetage fonctionne sur votre plateforme.
+- Vous pouvez proposer des **mockups**, des idées de couleurs, d’icônes ou d’agencement.
+- Créez une image ou une maquette et ajoutez-la à un **issue** ou **pull request**.
 
-En général, il suffit de télécharger, de compiler et de tester le logiciel, mais la valeur pour le projet peut être énorme si vous utilisez une distribution ou un matériel peu courant. Le simple fait de signaler que la compilation et le test fonctionnent permet aux chefs de projet de savoir que la version imminente est solide.
+---
 
-8. **Corriger un bogue** : C'est généralement par là que commencent les contributeurs désireux de travailler sur le code. C'est simple : Trouvez un bogue intéressant dans le système de tickets et essayez de le corriger dans le code. Documentez la correction dans le code si cela est approprié. C'est une bonne idée d'ajouter un test à la suite de tests pour tester la partie du code que vous avez corrigée ; certains projets exigent que les corrections de bogues incluent des tests. Prenez des notes pendant que vous fouillez dans cette base de code inconnue. Même si vous ne parvenez pas à corriger le bogue, documentez dans le ticket ce que vous avez découvert dans le cadre de la tentative de correction. Ce que vous trouvez aide ceux qui viennent après vous.
-9. **Écrire un test**: La plupart des projets ont une suite de tests qui teste le code, mais il est difficile d'imaginer une suite de tests qui ne pourrait pas être complétée par d'autres tests. Utilisez un outil de couverture des tests comme gcov pour le C, ou Devel::Cover pour Perl pour identifier les zones du code source qui ne sont pas testées par la suite de tests. Ensuite, ajoutez un test à la suite pour couvrir ces zones.
-10. **Faire taire un avertissement du compilateur** : Le processus de compilation de nombreux projets basés sur le langage C fait souvent apparaître à l'écran un avertissement du compilateur. Ces avertissements ne sont généralement pas des indicateurs d'un problème, mais ils peuvent y ressembler. Un trop grand nombre d'avertissements peut donner l'impression que le compilateur crie au loup. Vérifiez si le code ne cache pas un bogue. Si ce n'est pas le cas, la modification du code source pour le rendre silencieux permet de dissimuler ces faux positifs.
-11. **Ajouter un commentaire** : Lorsque vous fouillez dans le code, il se peut que vous trouviez des points qui prêtent à confusion. Il y a de fortes chances que si vous avez été dérouté, d'autres le seront aussi. Documentez-les dans le code et soumettez un correctif. Travailler avec la documentation La documentation est généralement la partie d'un projet qui est la plus négligée. Elle peut aussi souffrir d'avoir été écrite du point de vue de ceux qui connaissent bien le projet, plutôt qu'à travers les yeux de quelqu'un qui vient de s'y lancer. Si vous avez déjà lu la documentation d'un projet et que vous vous êtes dit : "C'est comme si ce manuel s'attendait à ce que je sache déjà comment utiliser ce paquet", vous savez de quoi je parle. Souvent, un regard neuf peut mettre en évidence des lacunes dans la documentation que les personnes proches du projet ne remarquent pas.
-12. **Create an example** : There is no project that has too many how-to examples. Whether it's a web API, a library of routines, a GUI app like Gimp or a command line tool, a good example of proper usage can more clearly and quickly explain proper usage of software than pages of documentation. For an API or library, create an example program that uses the tool. This could even be extracted from code you've written, trimmed down to the bare necessities. For a tool, show real-world examples of how you've used it in your daily life. If you’re visually oriented, consider creating a screen-capture of an important process, such as how to install the application.
+## 📸 5. Créer des visuels ou bannières
 
-Travailler avec la communauté L'open source n'est qu'une partie du code. C'est la communauté qui fait fonctionner l'open source. Voici comment vous pouvez contribuer à son développement
+- Les projets aiment avoir de beaux logos, bannières pour GitHub, LinkedIn, etc.
+- Utilisez Canva, Figma, ou un autre outil et proposez vos créations.
 
-13. **Répondre à une question** : La meilleure façon de contribuer à la construction de la communauté est d'aider les autres. Répondre à une question, en particulier à celle d'un débutant, est essentiel pour aider le projet à se développer et à prospérer. Le temps que vous prenez pour aider un débutant, même s'il pose une question à laquelle vous pourriez facilement répondre par un rapide "RTFM", vous permet de devenir un membre actif de la communauté. Tout le monde commence quelque part, et les projets ont besoin d'un afflux constant de personnes pour rester dynamiques.
+---
 
-14. **Rédigez un article de blog** : Si vous avez un blog, écrivez sur vos expériences avec le projet que vous utilisez. Racontez un problème que vous avez rencontré en utilisant le logiciel et ce que vous avez fait pour le résoudre. Vous apporterez une double aide, en contribuant à maintenir le projet dans l'esprit des personnes qui vous entourent et en créant une trace pour toute personne qui, à l'avenir, sera confrontée à votre problème et cherchera la réponse sur le web. (Un blog relatant vos aventures techniques est également un excellent moyen de montrer votre expérience concrète du logiciel en question la prochaine fois que vous chercherez un emploi dans ce domaine).
-15. **Améliorer un site web** : Si vous avez des compétences en conception de sites web et que vous pouvez aider à améliorer le site web, et donc l'image du projet auprès du public, c'est du temps bien utilisé. Le projet pourrait peut-être bénéficier d'une refonte graphique ou d'un logo pour l'identifier. Il s'agit peut-être de compétences qui font défaut à la communauté. Je sais que j'aimerais beaucoup avoir de l'aide en matière de conception graphique pour les sites web de mes projets.
-16. **Rédiger de la documentation technique** : Si vous pouvez écrire sur le fonctionnement d'une application ou d'un logiciel, vous pouvez rédiger de la documentation technique à son sujet. En particulier pour les projets open source qui cherchent à mettre à jour, réorganiser, développer ou créer des documents techniques destinés au grand public. Plus vous écrivez en anglais simple, mieux c'est. Le plus intéressant, c'est qu'il n'est pas nécessaire d'être programmeur pour rédiger des documents techniques.
+## 🔗 6. Partager et promouvoir
 
-Surtout, écoutez ce que disent les gens autour de vous. Voyez si vous pouvez reconnaître un besoin pressant. Par exemple, récemment, sur la liste de diffusion des développeurs de Parrot, il a été décidé d'utiliser GitHub comme système de tickets d'incident, abandonnant l'ancienne installation de Trac qu'ils avaient. Certaines personnes se sont opposées à cette décision car il n'y avait aucun moyen de convertir les tickets au système de GitHub. Après une journée de discussions, j'ai pris la parole et j'ai dit : "Et si j'écrivais un convertisseur ?". Les gens étaient ravis de l'idée. J'ai pris le temps d'écrire un programme de conversion pour les plus de 450 tickets, de sorte que nous n'avons rien perdu de l'historique de nos tickets. Ce fut un grand succès. J'ai pu apporter ma contribution, et les développeurs principaux sont restés concentrés sur leur travail sur Parrot.
+- Parlez du projet sur **LinkedIn, X (Twitter), ou Facebook**.
+- Aidez à gagner en visibilité pour attirer d'autres contributeurs.
 
-17. **Enseigner et aider les autres** : La meilleure façon d'en savoir plus sur un sujet est d'essayer de l'enseigner. Le meilleur professeur est celui qui peut expliquer des choses complexes avec des exemples simples. Vous devez donc essayer d'être le meilleur professeur pour être le meilleur apprenant et le meilleur dans votre monde de programmation. Enseigner aux autres vous permettra de vous sentir mieux dans votre peau et vous aidera à acquérir de meilleures compétences et connaissances dans votre profession. Lorsque vous recevez de l'aide de quelqu'un, ne la gardez pas pour vous, partagez-la avec les autres. Faites du monde un endroit où il fait bon vivre.
+---
+
+## 🎁 Bonus : Autres moyens
+
+- Tester une application ou un site web et partager un retour honnête.
+- Participer aux discussions dans les **GitHub Discussions**.
+- Aider à répondre aux issues ouvertes.
+
+---
+
+Merci de vouloir contribuer 🙌  
+**Toute aide, technique ou non, fait une différence.**  
+N'hésitez pas à créer un issue si vous avez des questions !
+
+---
+
+👨‍💻 *Ce guide est fait pour tous ceux qui souhaitent contribuer, même sans coder.*
