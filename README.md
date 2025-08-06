@@ -141,6 +141,57 @@ Si vous aimez ce projet, partagez-le sur **LinkedIn / X (Twitter) / Facebook**
 Ensemble, on peut rendre l’open source plus accessible à tous 🙌
 
 ---
+beginner-contribution-guides
+Open Source Love License: MIT Open Source Helpers
+
+Read this in other languages.
+Shqip Armenian Uzbek language Azərbaycan dili বাংলা Bulgarian Português (Brasil) Català 中文 (Simplified) Czech Deutsch Dansk المصرية Dezéiriya Español de España Française Gaeilge Galego Ελληνικά ქართული Magyar Bahasa Indonesia עִברִית हिंदी/ગુજરાતી/मराठी/മലയാളം/ಕನ್ನಡ/తెలుగు/छत्तीसगढ़ी/বাংলা/தமிழ் தமிழ் فارسی Italiano 日本語 සිංහල Kiswahili (Kenya) 한국어 Lietuvių kalba Limba Română Limba Română မြန်မာ Македонски Español de México Bahasa Melayu / بهاس ملايو‎ / Malay Dutch Norsk नेपाली Wikang Filipino English (Pirate) اردو Twi (Ghana) Polski Português (Portugal) Русский язык العربية Svenska Slovenčina Slovenščina ภาษาไทย Türkçe 中文(Traditional) Українська Tiếng Việt Swahili language Zulu (South Africa) Afrikaans (South Africa) Igbo (Nigeria) Bambara (Mali) Hausa (Nigeria) Yoruba (Nigeria) Latvia Suomeksi Беларуская мова Српски Қазақша Bosanski Bosanski Hrvatski پښتو Somalia Ecuador Luganda (Uganda) Turkmen language Ewe (TOGO) አማርኛ Kurdî Malagasy ភាសាខ្មែរ Moroccan Darija
+
+🌍 Guide pour contribuer à l'open source sans coder
+Bienvenue ! Ce dépôt est destiné à aider toutes les personnes qui souhaitent contribuer à l'open source, même sans être développeur.
+
+👉 Oui, vous pouvez contribuer sans écrire une seule ligne de code !
+
+🚀 Qu’est-ce que ce projet ?
+Ce projet explique comment contribuer à des projets GitHub en tant que :
+
+Étudiant
+Designer
+Rédacteur technique
+Utilisateur régulier
+Communicant ou Community Manager
+Nous avons créé un guide complet dans le fichier CONTRIBUTING.md pour vous aider pas à pas.
+
+📖 Ce que vous allez apprendre :
+✅ Comment ouvrir un issue
+✅ Comment faire une traduction
+✅ Comment améliorer la documentation
+✅ Comment proposer des designs ou visuels
+✅ Comment tester et faire des retours utiles
+✅ Comment promouvoir un projet open-source
+
+🫂 Pourquoi ce guide ?
+Beaucoup de gens pensent que GitHub est uniquement pour les développeurs.
+Nous croyons que chacun peut contribuer à sa manière — c’est ça l’esprit de l’open source !
+
+🙋‍♂️ Comment contribuer à ce dépôt ?
+Lisez le fichier CONTRIBUTING.md
+Créez un issue si vous avez une idée d’amélioration
+Faites une pull request avec votre traduction, design, doc, etc.
+⭐ N’oubliez pas de laisser un star si ce projet vous aide !
+🫱🏻‍🫲🏾 Rejoignez la communauté
+Si vous aimez ce projet, partagez-le sur LinkedIn / X (Twitter) / Facebook
+Ensemble, on peut rendre l’open source plus accessible à tous 🙌
+
+Tutorials Using Other Tools
+GitHub Desktop	Visual Studio 2017	GitKraken	VS Code	Sourcetree App	IntelliJ IDEA
+GitHub Desktop	Visual Studio 2017	GitKraken	Visual Studio Code	Atlassian Sourcetree	IntelliJ IDEA
+✨ Ce dépôt est ouvert à toutes les contributions utiles — techniques ou non. Merci de faire partie du changement ❤️
+
+
+---
+
+
 
 ## Tutorials Using Other Tools
 
